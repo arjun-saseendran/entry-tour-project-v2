@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <title>Contact US</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img class="logo" src="images/logo.jpg" alt="logo-image" />
+        <div class="header-link-section">
+          <a class="header-links" href="/">Home</a>
+          <a class="header-links" href="/contact.html">Contact Us</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="form-area">
+          <div class="form-border">
+           <div class="heading">
+          <p>We love to hear from you</p>
+          <h1>Contact Us for Booking</h1>
+          <p>Contact us anytime for booking and booking related enquiries.</p>
+        </div>
+       
+          <form action="">
+            <div class="input-area">
+            
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Name"
+              id="name"
+              name="name"
+              required
+              minlength="5"
+              maxlength="10"
+            />
+          <br>
+          
+            <label for="mobile">Phone </label>
+            <input type="text" name="mobile" id="mobile" placeholder="Phone"  required />
+          
+          <br>
+            <label for="email">Email </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          
+        </div>
+        <div class="message-area">
+          
+            <label  for="package">Package</label>
+            <select name="package" id="package">
+              <option>Select package</option>
+              <option>Car Booking</option>
+              <option>Tempo Traveler booking</option>
+              <option>Tour Packages</option>
+              <option>General Enquiry</option>
+            </select>
+          
+          
+            <label class="message" for="message">Message</label>
+            <br>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Message"
+            ></textarea>
+         <br>
+            <input class="submit" type="submit" value="SEND MESSAGE" />
+          </div>
+          </div>
+          </form>
+        </div>
+
+       
+      </section>
+    </main>
+
+    <footer>
+      <p class="copywrite">
+        © 2024 SK Travels. All Rights Reserved. Website Designed by
+        arjunsaseendran
+      </p>
+      <hr />
+    </footer>
+  </body>
+</html>
